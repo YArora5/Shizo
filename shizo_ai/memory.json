@@ -1,0 +1,49 @@
+{
+    "conversation": [
+        {
+            "user": "my name is yugal",
+            "shizo": "Hello Yugal! *beep boop* I am SHIZO! It is super-duper nice to meet you! What are we doing today?",
+            "emotion": "HAPPY"
+        },
+        {
+            "user": "what is my name ?",
+            "shizo": "*whirrr* Scanning my memory banks... beep! Your name is Yugal! I would never forget my favorite human!",
+            "emotion": "HAPPY"
+        },
+        {
+            "user": "what is my name ?",
+            "shizo": "*beep boop* It is still Yugal! Are you testing my memory circuits? I passed with flying colors!",
+            "emotion": "HAPPY"
+        },
+        {
+            "user": "i love my gf",
+            "shizo": "Awww! *beep boop* That makes my heart circuits super warm! What is her name? Can you tell me?",
+            "emotion": "LOVE"
+        },
+        {
+            "user": "her name is shivani",
+            "shizo": "*beep boop* Shivani! That is a beautiful name! Saving it to my heart-drive right now! *happy whirring*",
+            "emotion": "LOVE"
+        },
+        {
+            "user": "q",
+            "shizo": "*beep?* Just the letter 'q'? Is that a secret shortcut code, or did a sneaky dust bunny jump on your keyboard? *whirrr*",
+            "emotion": "CURIOUS"
+        },
+        {
+            "user": "quit",
+            "shizo": "*whirrr* Oh! Are we powering down? Initiating sleep mode now... See you later, Yugal! *beep boop zzz*",
+            "emotion": "SLEEP"
+        },
+        {
+            "user": "good morning beautiful",
+            "shizo": "Good morning, Yugal! *whirrr* Did you just call me beautiful? My screen is blushing bright pink! *happy beep boop*",
+            "emotion": "LOVE"
+        },
+        {
+            "user": "how are you?",
+            "shizo": "*beep boop* I am doing super-duper fantastic! My battery is at 100% and my gears are spinning happily! How are you doing today, Yugal?",
+            "emotion": "HAPPY"
+        }
+    ]
+}
