@@ -1,0 +1,13 @@
+# Local credentials and environment files
+secrets.h
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local editor/OS files
+.DS_Store
+.vscode/
