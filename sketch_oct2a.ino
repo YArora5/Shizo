@@ -120,6 +120,8 @@ IRQ -> NOT CONNECTED
 
 
 
+#include "secrets.h"
+
 #include <Wire.h>
 
 
@@ -172,11 +174,11 @@ IRQ -> NOT CONNECTED
 
 
 
-const char* WIFI_SSID = "JioFiber-Eiz0i";
+const char* WIFI_SSID = WIFI_SSID_CONFIG;
 
 
 
-const char* WIFI_PASSWORD = "JKA@176222";
+const char* WIFI_PASSWORD = WIFI_PASSWORD_CONFIG;
 
 
 
