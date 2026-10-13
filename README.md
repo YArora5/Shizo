@@ -535,3 +535,28 @@ It is an attempt to build a personal AI system that can understand, communicate,
 The physical device is only one interface for the larger system.
 The goal isn't to make SHIZO walk.
 The goal is to make SHIZO capable. 🤖
+
+
+## Local setup
+
+### ESP8266 firmware
+
+1. Install the Arduino IDE and the ESP8266 board package.
+2. Install the libraries used by the sketch: Adafruit GFX Library, Adafruit SSD1306, and MFRC522.
+3. Copy `secrets.example.h` to `secrets.h` in the repository root and enter your own Wi-Fi credentials in the local copy. **Do not commit `secrets.h`.**
+4. Open `sketch_oct2a.ino`, select the NodeMCU ESP8266 board and the correct port, then compile and upload.
+
+### Python AI component
+
+1. Use Python 3.10 or a compatible version supported by the installed AI packages.
+2. Install dependencies with `python -m pip install -r requirements.txt`.
+3. Set the `GEMINI_API_KEY` environment variable in your local terminal before running the AI script.
+4. Confirm the configured ESP device IP address matches your local network before starting the script.
+
+The Python AI component and ESP firmware are separate pieces; a successful firmware upload does not mean voice interaction, full AI integration, or every roadmap item is complete. Check the current status and test each component independently.
+
+## Security notes
+
+- Never commit Wi-Fi credentials, API keys, tokens, or local `secrets.h` files.
+- Rotate any credential that was previously committed to a public repository. Removing it from the latest version does not remove it from Git history.
+- Keep camera and microphone features disabled until they are intentionally implemented and tested.
